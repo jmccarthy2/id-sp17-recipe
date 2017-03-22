@@ -32,7 +32,6 @@ header h1 {
 img {
   max-width: 100%;
   height: auto;
-  align: center;
   display: block;
     margin: 0 auto;
 }
@@ -142,13 +141,6 @@ header h1 {
     margin-top: -.2em;
   }
 
-  #ingredients {
-    !margin-left: 20%;
-  }
-
-  #instructions {
-    !margin-left: 20%;
-  }
 
   .jump-link-top {
     position: absolute;
@@ -174,7 +166,6 @@ header h1 {
 #ingredients h2 {
      list-style: none;
      text-align: left;
-     !background: #f00;
      padding: .2em;
      margin: 1em 0 0 .5em;
 }
@@ -191,7 +182,6 @@ header h1 {
    #instructions ol {
         list-style: none;
         text-align: left;
-        !background: #f00;
         padding: .5em 0;
         margin: 1em 0 0 1em;
     }
@@ -199,7 +189,6 @@ header h1 {
     #instructions h2 {
          list-style: none;
          text-align: left;
-         !background: #f00;
          padding: .2em 0;
          margin: 1em 0 0 1em;
    }
