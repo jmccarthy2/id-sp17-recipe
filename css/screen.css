@@ -158,12 +158,11 @@ header h1 {
  #ingredients ul {
       list-style: none;
       text-align: left;
-      !background: #f00;
       padding: .5em;
       margin: 1em 3em 0 1em;
 }
 
-#ingredients h2 {
+ #ingredients h2 {
      list-style: none;
      text-align: left;
      padding: .2em;
@@ -201,3 +200,4 @@ header h1 {
           background: #fff;
           margin-left: 3%;
          }
+}
