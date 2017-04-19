@@ -9,6 +9,7 @@
 	<meta name="HandheldFriendly" content="true">
   <title>HTML & CSS Recipe</title>
   <meta name="author" content="Jackie McCarthy">
+  <script src="js/smooth-scroll.min.js"></script>
 </head>
 <body>
 <main>
@@ -18,8 +19,8 @@
   <h1>Bacon Guacamole Grilled Cheese Sandwich</h1>
     <nav>
      <ul>
-      <li><a href="#ingredients"><b>Ingredients</b></a></li>
-      <li><a href="#instructions"><b>Directions</b></a></li>
+      <li><a href="#ingredients" data-scroll><b>Ingredients</b></a></li>
+      <li><a href="#instructions" data-scroll><b>Directions</b></a></li>
      </ul>
     </nav>
   <figure>
@@ -29,7 +30,9 @@
   </header>
 
 
-     <section id="ingredients">
+
+
+    <section id="ingredients">
 
         <h2>Ingredients</h2>
           <ul>
@@ -54,9 +57,11 @@
 
  </article>
   <div class="jump-link-top">
-  <a href="#" title="Back to Top"><span class="arrow-up">⇡</span> <span class="jump-link-text">Back to Top?</span></a>
+  <a href="#" title="Back to Top" data-scroll><span class="arrow-up">⇡</span> <span class="jump-link-text">Back to Top?</span></a>
   </div>
 </main>
+
+
 
 </body>
 
