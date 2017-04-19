@@ -9,7 +9,6 @@ nav ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 1em;
-
   font-family: arial;
   text-align: center;
   color: #ddd;
@@ -46,6 +45,7 @@ figcaption {
 section h2{
   font-family: verdana, sans-serif;
   color: #0b0;
+  padding-top: 8px;
 }
 
 section ol{
